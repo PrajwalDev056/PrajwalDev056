@@ -40,10 +40,6 @@ Passionate backend developer with expertise in building scalable and efficient s
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PrajwalDev056&radius=16&theme=lucent&area=true&order=5&hide_border=true&hide_title=true" width="850" height="300" alt="activity-graph" />
-</div>
-<!-- Animated Pac-Man style contribution graph -->
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=PrajwalDev056&radius=16&theme=lucent&area=true&order=5&hide_border=true&hide_title=true" height="300alt="activity-graph graph"  />
 </div>
 
