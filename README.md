@@ -72,7 +72,7 @@ Passionate backend developer with expertise in building scalable and efficient s
         </a>
       </td>
       <td align="center">
-        <a href="mailto:prajwal.krao.pkr@gmail.com">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prajwal.krao.pkr@gmail.com">
           <img src="https://img.shields.io/badge/EMAIL-CONTACT-ea4335?style=for-the-badge&labelColor=333333&logo=gmail&logoColor=white" alt="Email"/>
         </a>
       </td>
