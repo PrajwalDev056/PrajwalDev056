@@ -34,7 +34,7 @@ Passionate backend developer with expertise in building scalable and efficient s
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph.svg" width="680" height="170" alt="pacman contribution graph" />
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph.svg" style="width: 100%; max-width: 850px; height: 200; display: block; margin: 0 auto;">
 </picture>
 <!-- Animated Pac-Man style contribution graph -->
 <div align="center">
