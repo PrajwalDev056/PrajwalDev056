@@ -62,8 +62,23 @@ Passionate backend developer with expertise in building scalable and efficient s
 - CI/CD & DevOps Practices
 
 ### 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-05122A?style=flat&logo=linkedin)](https://linkedin.com/in/prajwaldev056)  
-[![Email](https://img.shields.io/badge/-Email-05122A?style=flat&logo=gmail)](mailto:prajwaldev056@example.com)
+
+<div align="center" style="background-color: #1a1a1a; padding: 15px; border-radius: 8px;">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://www.linkedin.com/in/prajwal056">
+          <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0077b5?style=for-the-badge&labelColor=333333" alt="LinkedIn"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="mailto:prajwal.krao.pkr@gmail.com">
+          <img src="https://img.shields.io/badge/EMAIL-CONTACT-ea4335?style=for-the-badge&labelColor=333333&logo=gmail&logoColor=white" alt="Email"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### 📝 Recent Projects
 <!--START_SECTION:recent_repos-->
