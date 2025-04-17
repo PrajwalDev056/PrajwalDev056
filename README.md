@@ -21,9 +21,11 @@ Passionate backend developer with expertise in building scalable and efficient s
 - CI/CD & DevOps Practices
 
 ### 📈 GitHub Stats
-![PrajwalDev056's GitHub Stats](https://github-readme-stats.vercel.app/api?username=PrajwalDev056&show_icons=true&theme=radical&hide_rank=true)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PrajwalDev056&layout=compact&theme=radical)  
-![Metrics](https://metrics.lecoq.io/PrajwalDev056?template=classic&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&config.timezone=Asia%2FCalcutta)
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <img src="https://github-readme-stats.vercel.app/api?username=PrajwalDev056&show_icons=true&theme=radical&hide_rank=true" alt="GitHub Stats" style="max-width: 100%; margin: 5px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrajwalDev056&layout=compact&theme=radical" alt="Top Languages" style="max-width: 100%; margin: 5px;">
+</div>
 
 ### 🌐 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-05122A?style=flat&logo=linkedin)](https://linkedin.com/in/prajwaldev056)  
