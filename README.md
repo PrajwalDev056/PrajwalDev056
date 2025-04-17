@@ -31,11 +31,17 @@ Passionate backend developer with expertise in building scalable and efficient s
 
 ### 📈 GitHub Stats
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph.svg" style="max-width: 850px; height: 300; display: block; margin: 0 auto;">
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man style contribution graph" src="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph.svg" width="850" height="220" />
+  </picture>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PrajwalDev056&radius=16&theme=lucent&area=true&order=5&hide_border=true&hide_title=true" width="850" height="300" alt="activity-graph" />
+</div>
 <!-- Animated Pac-Man style contribution graph -->
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=PrajwalDev056&radius=16&theme=lucent&area=true&order=5&hide_border=true&hide_title=true" height="300alt="activity-graph graph"  />
