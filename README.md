@@ -22,10 +22,16 @@ Passionate backend developer with expertise in building scalable and efficient s
 
 ### 📈 GitHub Stats
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <img src="https://github-readme-stats.vercel.app/api?username=PrajwalDev056&show_icons=true&theme=radical&hide_rank=true" alt="GitHub Stats" style="max-width: 100%; margin: 5px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrajwalDev056&layout=compact&theme=radical" alt="Top Languages" style="max-width: 100%; margin: 5px;">
+###
+
+<br clear="both">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PrajwalDev056&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=true&theme=apprentice&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PrajwalDev056&radius=16&theme=lucent&area=true&order=5&hide_border=true&hide_title=true" height="300" alt="activity-graph graph"  />
 </div>
+
+###
 
 ### 🌐 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-05122A?style=flat&logo=linkedin)](https://linkedin.com/in/prajwaldev056)  
