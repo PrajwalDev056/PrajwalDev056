@@ -1,0 +1,32 @@
+# This workflow updates the Recent Projects section in README.md with your latest 5 repositories
+# Uses jaywcjlove/github-action-readme to fetch and update automatically
+
+name: Update Recent Projects in README
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README with latest repos
+        uses: jaywcjlove/github-action-readme@main
+        with:
+          username: PrajwalDev056
+          token: ${{ secrets.GITHUB_TOKEN }}
+          readme: ./README.md
+          max_repos: 5
+          filter: public
+          sort: updated
+          section: recent_repos
+      - name: Commit & Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'chore: update recent projects in README [auto]' || echo 'No changes to commit'
+          git push
