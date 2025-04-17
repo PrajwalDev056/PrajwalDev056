@@ -31,7 +31,11 @@ Passionate backend developer with expertise in building scalable and efficient s
 
 ### 📈 GitHub Stats
 
-<!-- <br clear="both"> -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/PrajwalDev056/PrajwalDev056/output/pacman-contribution-graph.svg">
+</picture>
 
 <div align="center">
   <!-- <img src="https://github-readme-stats.vercel.app/api?username=PrajwalDev056&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=true&theme=apprentice&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  /> -->
