@@ -1,32 +1,36 @@
-# This workflow updates the Recent Projects section in README.md with your latest 5 repositories
-# Uses jaywcjlove/github-action-readme to fetch and update automatically
-
-name: Update Recent Projects in README
+name: Update README with Recent Repos
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight UTC
-  workflow_dispatch:
+    # - cron: "0 0 * * *" # Runs daily at midnight UTC
+    - cron: "* * * * *" # Runs every minute (GitHub minimum is actually every 5 minutes)
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Update README with latest repos
-        uses: jaywcjlove/github-action-readme@main
         with:
-          username: PrajwalDev056
-          token: ${{ secrets.GITHUB_TOKEN }}
-          readme: ./README.md
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Update README with recent repos
+        uses: wanglez/recent-repos-readme@v1.0.0
+        with:
+          github_username: PrajwalDev056
           max_repos: 5
-          filter: public
-          sort: updated
-          section: recent_repos
-      - name: Commit & Push changes
+          readme_path: ./README.md
+
+      - name: Commit changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m 'chore: update recent projects in README [auto]' || echo 'No changes to commit'
-          git push
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update recent repositories in README"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
