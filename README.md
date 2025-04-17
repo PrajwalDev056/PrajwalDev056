@@ -2,8 +2,6 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/PrajwalDev056?label=Followers&style=flat&logo=github)](https://github.com/PrajwalDev056?tab=followers)
 [![GitHub stars](https://img.shields.io/github/stars/PrajwalDev056?label=Stars&style=flat&logo=github)](https://github.com/PrajwalDev056?tab=stars)
-[![GitHub forks](https://img.shields.io/github/forks/PrajwalDev056?label=Forks&style=flat&logo=github)](https://github.com/PrajwalDev056?tab=repositories)
-[![Top Langs](https://img.shields.io/github/languages/top/PrajwalDev056/PrajwalDev056?style=flat&logo=code)](https://github.com/PrajwalDev056)
 [![Profile Views](https://komarev.com/ghpvc/?username=PrajwalDev056&style=flat&color=blue)](https://github.com/PrajwalDev056)
 [![Last Commit](https://img.shields.io/github/last-commit/PrajwalDev056/PrajwalDev056?style=flat)](https://github.com/PrajwalDev056/PrajwalDev056/commits/main)
 
