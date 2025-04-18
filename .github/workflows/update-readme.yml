@@ -13,7 +13,7 @@ jobs:
       - name: Fetch latest repos and update README
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
           script: |
             const username = 'PrajwalDev056';
             const { data: repos } = await github.rest.repos.listForUser({
