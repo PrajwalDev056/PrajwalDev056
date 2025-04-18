@@ -86,7 +86,8 @@ Passionate backend developer with expertise in building scalable and efficient s
 
 ### 📝 Recent Projects
 <!--START_SECTION:recent_repos-->
-- Loading…
+- [PrajwalDev056](https://github.com/PrajwalDev056/PrajwalDev056)
+- [EmailEngineCore](https://github.com/PrajwalDev056/EmailEngineCore)
 <!--END_SECTION:recent_repos-->
 
 ### 📈 GitHub Stats
