@@ -86,6 +86,7 @@ Passionate backend developer with expertise in building scalable and efficient s
 
 ### 📝 Recent Projects
 <!--START_SECTION:recent_repos-->
+- [BookVault-GraphQL](https://github.com/PrajwalDev056/BookVault-GraphQL)
 - [PrajwalDev056](https://github.com/PrajwalDev056/PrajwalDev056)
 - [EmailEngineCore](https://github.com/PrajwalDev056/EmailEngineCore)
 <!--END_SECTION:recent_repos-->
