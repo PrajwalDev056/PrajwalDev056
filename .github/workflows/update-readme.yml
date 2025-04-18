@@ -1,37 +1,38 @@
-name: Update README with Recent Repos
+name: Update README with latest repos
 
 on:
   schedule:
-    # - cron: "0 0 * * *" # Runs daily at midnight UTC
-    - cron: "* * * * *" # Runs every minute (GitHub minimum is actually every 5 minutes)
-  workflow_dispatch: # Allows manual triggering
+    - cron: "0 * * * *" # Runs every hour
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Fetch latest repos and update README
+        uses: actions/github-script@v7
         with:
-          persist-credentials: false
-          fetch-depth: 0
-
-      - name: Update README with recent repos
-        uses: wanglez/recent-repos-readme@v1.0.0
-        with:
-          github_username: PrajwalDev056
-          max_repos: 5
-          readme_path: ./README.md
-          sort: created
-
-      - name: Commit changes
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const username = 'PrajwalDev056';
+            const { data: repos } = await github.rest.repos.listForUser({
+              username,
+              sort: 'updated',
+              per_page: 5,
+            });
+            const list = repos.map(r => `- [${r.name}](${r.html_url})`).join('\\n');
+            const fs = require('fs');
+            let readme = fs.readFileSync('README.md', 'utf8');
+            readme = readme.replace(
+              /<!--START_SECTION:recent_repos-->[\\s\\S]*<!--END_SECTION:recent_repos-->/,
+              `<!--START_SECTION:recent_repos-->\\n${list}\\n<!--END_SECTION:recent_repos-->`
+            );
+            fs.writeFileSync('README.md', readme);
+      - name: Commit and push if changed
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update recent repositories in README"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          branch: ${{ github.ref }}
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update recent repos in README"
+          git push
