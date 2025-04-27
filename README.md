@@ -42,9 +42,9 @@ Seasoned Senior Software Engineer with 4+ years of experience architecting, deve
 ---
 
 ## 📜 Certifications
-- Learn Python Programming Masterclass — Udemy (May 2022 – Present)
-- Kubernetes for Developers — [Your Certification Body] (Assumed Completed)
-- AWS Certified Solutions Architect – Associate (Assumed Completed)
+- Learn Python Programming Masterclass — Udemy (May 2022 – 2022)
+<!-- - Kubernetes for Developers — [Your Certification Body] (Assumed Completed)
+- AWS Certified Solutions Architect – Associate (Assumed Completed) -->
 
 ---
 
@@ -66,25 +66,6 @@ Seasoned Senior Software Engineer with 4+ years of experience architecting, deve
 - **Languages:** English (Professional), Kannada (Native), Hindi (Fluent)
 
 ---
-
-<!-- ### 🌐 Connect with Me
-
-<div align="center" style="background-color: #1a1a1a; padding: 15px; border-radius: 8px;">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://www.linkedin.com/in/prajwal056">
-          <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0077b5?style=for-the-badge&labelColor=333333" alt="LinkedIn"/>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prajwal.krao.pkr@gmail.com">
-          <img src="https://img.shields.io/badge/EMAIL-CONTACT-ea4335?style=for-the-badge&labelColor=333333&logo=gmail&logoColor=white" alt="Email"/>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div> -->
 
 ### 📝 Recent Projects
 <!--START_SECTION:recent_repos-->
