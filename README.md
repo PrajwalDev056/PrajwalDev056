@@ -67,7 +67,7 @@ Seasoned Senior Software Engineer with 4+ years of experience architecting, deve
 
 ---
 
-### 🌐 Connect with Me
+<!-- ### 🌐 Connect with Me
 
 <div align="center" style="background-color: #1a1a1a; padding: 15px; border-radius: 8px;">
   <table>
@@ -84,7 +84,7 @@ Seasoned Senior Software Engineer with 4+ years of experience architecting, deve
       </td>
     </tr>
   </table>
-</div>
+</div> -->
 
 ### 📝 Recent Projects
 <!--START_SECTION:recent_repos-->
@@ -95,8 +95,13 @@ Seasoned Senior Software Engineer with 4+ years of experience architecting, deve
 
 ### 📈 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PrajwalDev056&radius=16&theme=lucent&area=true&order=5&hide_border=true&hide_title=true" height="300alt="activity-graph graph"  />
-</div>
+<p align="center" style="margin:0; padding:0;">
+  <img 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=PrajwalDev056&radius=16&theme=lucent&area=true&order=5&hide_border=true&hide_title=true" 
+    alt="activity-graph" 
+    height="300"
+    style="display:block; margin:0; padding:0; border:none; background:none;"
+  />
+</p>
 
 <span style="font-family: 'Segoe UI', Arial, sans-serif;">*Continuously learning and crafting efficient backend solutions*</span>
